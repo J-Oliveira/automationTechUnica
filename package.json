@@ -1,0 +1,27 @@
+{
+  "name": "automationTechUnica",
+  "version": "^12.10.0",
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "scripts": {
+    "cy:test:chrome": "cypress run --browser chrome",
+    "gerarRelatorio": "npx mochawesome-merge cypress/reports/html/.jsons/*.json > cypress/reports/mochawesome.json && npx mochawesome-report-generator cypress/reports/mochawesome.json"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.35.2",
+    "allure-commandline": "^2.21.0",
+    "cypress": "^10.10.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.4.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "eslint-plugin-cypress": "^2.12.1",
+    "mocha-junit-reporter": "^2.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2023-04-26T18:52:24.447Z",
+    "end": "2023-04-26T19:02:56.338Z",
+    "duration": 631891
+  },
+  "results": [
+    {
+      "uuid": "68d8088b-2d68-4e93-8e08-dc749c227131",
+      "title": "",
+      "fullFile": "cypress/e2e/comprandoProduto.feature",
+      "file": "cypress/e2e/comprandoProduto.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "29a71d6c-c2ba-46fb-bb50-0f3db334f600",
+          "title": "Comprando Produtos dentro do site da Magazine Luiza",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Adicionar um produto com sucesso na sacola",
+              "fullTitle": "Comprando Produtos dentro do site da Magazine Luiza Adicionar um produto com sucesso na sacola",
+              "timedOut": null,
+              "duration": 21658,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos\",\n  \"value\": \"cypress/e2e/comprandoProduto.feature\"\n}",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "8459b382-e393-45ba-8e2f-0d0df4512069",
+              "parentUUID": "29a71d6c-c2ba-46fb-bb50-0f3db334f600",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Buscando por um produto que não existe",
+              "fullTitle": "Comprando Produtos dentro do site da Magazine Luiza Buscando por um produto que não existe",
+              "timedOut": null,
+              "duration": 7719,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos\",\n  \"value\": \"cypress/e2e/comprandoProduto.feature\"\n}",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f9463fee-935f-49c0-a2a5-7a6b98c5840d",
+              "parentUUID": "29a71d6c-c2ba-46fb-bb50-0f3db334f600",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Encontrando um produto por uma palavra chave",
+              "fullTitle": "Comprando Produtos dentro do site da Magazine Luiza Encontrando um produto por uma palavra chave",
+              "timedOut": null,
+              "duration": 16698,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos\",\n  \"value\": \"cypress/e2e/comprandoProduto.feature\"\n}",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "818a7c29-0688-48f1-bdfd-2714c70460d3",
+              "parentUUID": "29a71d6c-c2ba-46fb-bb50-0f3db334f600",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8459b382-e393-45ba-8e2f-0d0df4512069",
+            "f9463fee-935f-49c0-a2a5-7a6b98c5840d",
+            "818a7c29-0688-48f1-bdfd-2714c70460d3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 46075,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "401d5d3c-8a6d-4410-b902-c72e3ed4e7ed",
+      "title": "",
+      "fullFile": "cypress/e2e/comprandoProduto.feature",
+      "file": "cypress/e2e/comprandoProduto.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "825fe187-5024-4ce7-bcf7-1744c8cdb8fb",
+          "title": "Comprando Produtos dentro do site da Magazine Luiza",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Adicionar um produto com sucesso na sacola",
+              "fullTitle": "Comprando Produtos dentro do site da Magazine Luiza Adicionar um produto com sucesso na sacola",
+              "timedOut": null,
+              "duration": 49975,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos\",\n  \"value\": \"cypress/e2e/comprandoProduto.feature\"\n}",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "7951d5cb-32b8-4365-b9d8-c758efe62314",
+              "parentUUID": "825fe187-5024-4ce7-bcf7-1744c8cdb8fb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Buscando por um produto que não existe",
+              "fullTitle": "Comprando Produtos dentro do site da Magazine Luiza Buscando por um produto que não existe",
+              "timedOut": null,
+              "duration": 7569,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos\",\n  \"value\": \"cypress/e2e/comprandoProduto.feature\"\n}",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "66fd1e5e-a676-4c52-9983-ba648c29caa0",
+              "parentUUID": "825fe187-5024-4ce7-bcf7-1744c8cdb8fb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Encontrando um produto por uma palavra chave",
+              "fullTitle": "Comprando Produtos dentro do site da Magazine Luiza Encontrando um produto por uma palavra chave",
+              "timedOut": null,
+              "duration": 15002,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos\",\n  \"value\": \"cypress/e2e/comprandoProduto.feature\"\n}",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "87d9b8bf-2da6-49b6-ba2e-64d73f77d918",
+              "parentUUID": "825fe187-5024-4ce7-bcf7-1744c8cdb8fb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7951d5cb-32b8-4365-b9d8-c758efe62314",
+            "66fd1e5e-a676-4c52-9983-ba648c29caa0",
+            "87d9b8bf-2da6-49b6-ba2e-64d73f77d918"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 72546,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports/html/.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
