@@ -1,6 +1,6 @@
 class aplicationMagaluElements {
 
-lbl_buscar = () => {return '[data-testid="input-search"]'};
+lbl_buscar = () => {return '[data-testid="input-search"]'}
 txt_produtoEncontrado = () => {return '[data-testid="mod-k"]'}
 btn_produtoSelecionado = () => {return ':nth-child(1) > [data-testid="product-card-container"]'}
 btn_addSacola = () => {return ':nth-child(2) > [data-testid="bagButton"]'}

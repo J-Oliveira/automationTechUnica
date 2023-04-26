@@ -52,10 +52,5 @@ selecionandoProdutoChave() {
     cy.screenshot()
 }
 
-
-
-
-
-
 }
 export default qaMagalu
