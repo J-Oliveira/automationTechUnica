@@ -16,8 +16,3 @@ Cenário: Encontrando um produto por uma palavra chave
     Dado que acesso o site da Magalu WEB
     Quando buscar por um produto pela palavra chave
     Então adiciono o produto sugerido na sacola
-
-
-
-
-
